@@ -7,18 +7,22 @@
     <title>Rock Paper Scissors</title>
   </head>
   <body>
-    <header><H1>Rock Paper Scissors</H1></header>
+    <!--Main site heater-->
+    <header><h1>Rock Paper Scissors</h1></header>
+    <!--Site game area this is where the game will be played and control feature are location-->
     <div class="game-area">
         <h2>Pick a move</h2>
+        <!--These are the game controls-->
         <button onclick="playGame('rock')">✊</button>
         <button onclick="playGame('scissors')">✌️</button>
         <button onclick="playGame('paper')">✋</button>
 
-        
+        <!--This will show the computer selection and the player selection-->
         <p class="selection">You <span id="player-selection">0</span></p>
         <p class="selection">Computer <span id="computer-selection">0</span></p>
 
     </div>
+    <!--This class will show the computer score and the player score-->
     <div class="score">
       <p class="scores">Your Score <span id="player-score">0</span></p>
       <p class="scores">Computer Score <span id="computer-score">0</span></p>
